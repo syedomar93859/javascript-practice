@@ -1,0 +1,1 @@
+This chapter goes over syntax basics and types
