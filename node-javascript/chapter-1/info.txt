@@ -1,0 +1,4 @@
+important commands:
+npm init -y
+npm install express
+node welcome.js
