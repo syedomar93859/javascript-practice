@@ -1,0 +1,41 @@
+Example code:
+console.log("Start");
+
+setTimeout(() => {
+    console.log("Timer finished");
+}, 2000);
+
+console.log("End");
+
+
+
+
+People EXPECT:
+
+Start
+(wait 2 seconds)
+Timer finished
+End
+
+BUT that is NOT what happens.
+
+
+
+
+
+Actual output:
+
+Start
+End
+(wait 2 seconds)
+Timer finished
+
+
+This is because setTimeout does NOT mean:
+
+"pause JavaScript for 2 seconds"
+
+Instead it means:
+
+"Hey browser/Node,
+please remind me in 2 seconds."

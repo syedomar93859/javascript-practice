@@ -1,0 +1,2 @@
+Hello, this is written using a stream.
+This is the final line

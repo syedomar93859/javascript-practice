@@ -1,0 +1,18 @@
+Simple example:
+function greet(callback){
+    console.log("Hello");
+    callback();
+}
+
+function goodbye(){
+    console.log("Bye");
+}
+
+greet(goodbye);
+
+
+
+
+Output:
+Hello
+Bye

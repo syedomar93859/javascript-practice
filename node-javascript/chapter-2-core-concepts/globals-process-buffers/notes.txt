@@ -1,0 +1,27 @@
+Browser JavaScript has browser features
+
+Example:
+document.getElementById("title");
+
+or:
+
+window.alert("Hello");
+
+These ONLY work in browsers.
+
+
+
+In Node.js:
+ReferenceError: document is not defined because Node has no webpage/DOM.
+
+Node.js has backend/server features
+
+Example:
+
+const fs = require("fs");
+
+or:
+
+console.log(__dirname);
+
+These ONLY work in Node.js.
